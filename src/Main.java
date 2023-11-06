@@ -22,7 +22,17 @@ public class Main {
         //f.size = 17.38;
         //f.isUnicorn = false;
         //f.isPegasus = true;
-
+        System.out.println("pony f's name is " + f.name);
         f.describePony();
+
+        Ponies t;
+        t = new Ponies();
+        System.out.println("pony t's name is " + t.name);
+        t.describePony();
+
+        Ponies r;
+        r = new Ponies("Rainbow Dash", "Blue", 55.55, false, true);
+        System.out.println("pony r's name is " + r.name);
+        r.describePony();
     }
 }

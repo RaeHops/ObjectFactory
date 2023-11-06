@@ -21,7 +21,25 @@ public class Ponies {
         name = pName;
         color = pColor;
 
+        describePony();
 
+        if(color.equals("pink")) {
+            System.out.println("I am a PINK pony!");
+        }else{
+            System.out.println("I am NOT a PINK pony!");
+        }
+        }
+
+
+    }
+
+    public Ponies(){ //method ovrloading: we have the same name for 2 methods, but different perameters.
+        isUnicorn = true;
+        isPegasus = false;
+        size = 22.5;
+        name = "Twilight Sparkle";
+        color = "purple";
+        describePony();
     }
 
     public void describePony(){
