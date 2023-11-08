@@ -23,13 +23,13 @@ public class Ponies {
 
         describePony();
 
+
+
         if(color.equals("pink")) {
             System.out.println("I am a PINK pony!");
         }else{
             System.out.println("I am NOT a PINK pony!");
         }
-        }
-
 
     }
 

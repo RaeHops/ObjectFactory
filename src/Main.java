@@ -7,13 +7,13 @@ public class Main {
         System.out.println(p.isUnicorn);
         System.out.println(p.name);
 
-        p.describePony();
+
 
         Ponies a;
         a = new Ponies("Apple Jack", "orange", 19.89, true, false); //this "Ponies" is a constructor, there is no "Ponies" method in ponies.java so it is a constructor method.
         // a.name = "Apple Jack";
         System.out.println("pony a's name is " + a.name);
-        a.describePony();
+
 
         Ponies f;
         f = new Ponies("Fluttershy", "yellow", 17.38, true, true);
@@ -23,16 +23,24 @@ public class Main {
         //f.isUnicorn = false;
         //f.isPegasus = true;
         System.out.println("pony f's name is " + f.name);
-        f.describePony();
+
 
         Ponies t;
         t = new Ponies();
         System.out.println("pony t's name is " + t.name);
-        t.describePony();
+
 
         Ponies r;
         r = new Ponies("Rainbow Dash", "Blue", 55.55, false, true);
         System.out.println("pony r's name is " + r.name);
-        r.describePony();
+
+
+        HarryPotter h;
+        h = new HarryPotter("Harry Potter", "Gryffindor", "brown hair");
+
+        HarryPotter d;
+        d = new HarryPotter();
+        d.describeHarryPotter();
+
     }
 }
